@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+.img-header{
+    width: 100%;
+}
+
+.bg-dark {
+    background-color: #4c3673d4!important;
+}
+
+footer{
+    background-color: #4c3673d4!important;
+}
+
+.pos-tex-izq{
+    left: 41.666667%;
+}
+
+.pos-img-izq{
+    right: 58.333333%;
+}
+
+.call-to-action{
+    background-color: #4c3673d4;
+    text-align: center;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.btn-warning{
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
+
+.tex-cta{
+    padding: 1.5rem 0rem 1rem;
+    color: #ffffff;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+} 
+
+.float-left{
+    width: 9%;
+}
+
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+    .pos-tex-izq{
+        left: 0;
+    }
+    .pos-img-izq{
+        right: 0;
+    }
+    .tex-cta{
+        display: none;
+    }
+    .btn-warning{
+        margin-top: 18px;
+    }
+}
+
+/* Buton Facebook*/
+.badge {
+    padding: 0.7em 3.5em;
+    font-size: 100%;
+}
+
+/* Astro*/
+#astro {
+    background-image: url(../img/astro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 50%;
+    height: 360px;
+    position: absolute !important;
+    left: 70%;
+    width: 15%;
+    animation: rot 10s infinite linear;
+    -webkit-animation: rot 10s infinite linear;
+}
+@keyframes rot{
+0% {
+    transform: rotate(0deg) translate(-30px) rotate(0deg);
+}
+50% {
+    transform: rotate(20deg) translate(-30px) rotate(0deg);
+}
+100% {
+    transform: rotate(360deg) translate(-30px) rotate(-360deg);
+}
+}

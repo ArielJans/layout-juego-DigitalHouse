@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display');
+
+.bg-dark {
+    background-color: #4c3673d4!important;
+}
+
+footer{
+    background-color: #4c3673d4!important;
+}
+
+body{
+     background: linear-gradient(135deg, rgba(193,70,161,1) 0%, rgba(168,0,119,1) 0%, rgba(203,96,179,1) 1%, rgba(0,255,255,0.58) 100%);
+}
+
+main{
+    width: 80%;
+    margin: 24px auto;
+    background-color: #533f7454;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+h1{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.29);
+}
+
+h4{
+    color: white;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.29);
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.lead {
+    margin-bottom: 2rem;
+}
+
+a{
+    color: #c0c3d5;
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy';
+    font-size: 2rem;
+    color: #ff9800 !important;
+} 
+
+.float-left{
+    width: 9%;
+}
+
+.namber{
+    font-family: 'Luckiest Guy';
+    color: #ff9800 !important;
+}
+/* Buton Facebook*/
+.badge {
+    padding: 0.7em 3.5em;
+    font-size: 100%;
+}
+.formContact{
+    padding: 0 3%;
+}
+
+button{
+    width: 100%;
+    font-size: 1.5rem!important;
+}
+.butt-preg{
+    text-align: left;
+    text-decoration: none!important;
+}
