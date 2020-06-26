@@ -18,3 +18,24 @@
     font-size: 2rem;
     color: #ff9800 !important;
 } 
+
+.awards{
+    display: flex;
+    justify-content: center;
+    background-color: #03a9f45c;
+    margin-bottom: 3%;
+}
+
+.img-award{
+    width: 10%;
+    margin: 10px;
+    border-radius: 0;
+}
+
+.data{
+  display: flex;
+}
+
+.pass{
+  display: flex;
+}
